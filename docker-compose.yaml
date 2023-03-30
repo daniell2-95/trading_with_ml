@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  api:
+    container_name: fastapi_server
+    build: app/.
+    ports:
+      - 8000:8000
+    networks: #user defined network bridge for all containers
+      - trade-net
+
+  mlflow:
+    container_name: mlflow_server
+    build: mlflow/.
+    ports:
+      - 5000:5000
+    networks:
+      - trade-net
+
+  frontend:
+    container_name: frontend_server
+    build: frontend/.
+    ports:
+      - 8501:8501
+    networks:
+      - trade-net
+
+networks: 
+  trade-net: 
+    driver: bridge
+    external: true

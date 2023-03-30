@@ -1,0 +1,13 @@
+AWS_S3_BUCKET: xxxxxxxxxxxxxxxxxxxxxxxxxx
+AWS_ACCESS_KEY_ID: xxxxxxxxxxxxxxxxxxxxxxxxxx
+AWS_SECRET_ACCESS_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxx
+FINNHUB_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxx
+MLFLOW_TRACKING_URI: xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Set up the Redshift connection details
+REDSHIFT_CREDS: 
+  HOST: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  PORT: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  DATABASE: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  USER: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  PASSWORD: xxxxxxxxxxxxxxxxxxxxxxxxxx
