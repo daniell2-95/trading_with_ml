@@ -1,4 +1,4 @@
-# Stock Trading Simulator
+# Stock Trading Simulator (DEPRECATED due to server costs, this is only a personal project)
 
 A stock trading simulator that allows you to train a ML model or write your own algo strategy to create signals to execute trades each day. 
 
